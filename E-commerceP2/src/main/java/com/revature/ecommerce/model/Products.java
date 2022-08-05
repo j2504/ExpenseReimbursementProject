@@ -15,7 +15,11 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-
+@Entity
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
 public class Products {
 
 	@Id
@@ -32,6 +36,8 @@ public class Products {
 	private String pPrice;
 	private String stock;
 	private String pImage;
+	
+	
 	
 	public Products(String pDescription, String pCategory, @NotEmpty String pManufacturer, String pName,
 			@NotNull String pPrice, String stock, String pImage) {

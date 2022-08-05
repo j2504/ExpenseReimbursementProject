@@ -1,4 +1,4 @@
-package com.revture.ecommerce;
+package com.revature.ecommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
