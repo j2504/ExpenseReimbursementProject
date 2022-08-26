@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+
+button {
+	
+	background-color: #e58d2f;
+	border: none;
+	color: black;
+	padding: 2px 6px;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5%;
+}
+
+fieldset{
+	background-color: aliceblue;
+}

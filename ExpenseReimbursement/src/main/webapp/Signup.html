@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="Header.css">
+      <link rel="stylesheet" href="Signup.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <div class="header">
+        <a href="Home.html" class="logo">Revature</a>
+        <div class="header-right">
+          <a href="Home.html" >Login</a>
+          <a href="" >Sign Up</a>
+        </div>
+      </div>
+
+      <div class="Signup form">
+        <form action="NewAccountPage" method="post">
+            <div class="Signup-c">
+            <fieldset style="width:300px;">
+                <div class="Signup-H"><h2>Create New Account</h2></div>
+                 <label for="firstname">First Name :</label>
+                 <input type="text" name="firstname" placeholder="Enter Your First Name" maxlength="25" required/>
+                 <br/><br/>
+                 <label for="lastname">Last Name :</label>
+                 <input type="text" name="lastname" placeholder="Enter Your Last Name"  maxlength="35" required/>
+                 <br/><br/>
+                 <label for="email" >Email :</label>
+                <input type="email" name="email" placeholder="Enter Email" required/>
+                <br/><br/>
+                 <label for="username" >Username :</label>
+                <input type="text" name="username" placeholder="Enter Username"  maxlength="10" required/>
+                <br/><br/>
+                <label for="password" >Password :</label>
+                <input type="password" name="password" placeholder="Enter Password" maxlength="15" required/>
+                <br/><br/>
+                <label for="role"> Select Role:</label>
+                <input type="radio" name="role" value="Employee" checked/>Employee
+                <input type="radio" name="role" value="Manager"/>Manager
+                <br/><br/>
+                <button type="submit">Create Account</button>
+            </fieldset>
+            
+            </div>
+        </form>
+       
+      </div>
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+
+ fieldset{
+ 	
+margin:auto;
+  border:2px solid black;
+ 
+   width:50%
+}
+
+table{
+	border-spacing:2px;
+}
+
+th{
+   border:1px solid black;
+   width:10%;
+}
+
+td{
+	text-align:center;
+	width:5%;
+	border:1px solid orange;
+}
+
+.all{
+	 background-color:#e58d2f ;
+        border: none;
+        color: black;
+        padding: 2px 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5%;
+}
+
+button{
+	background-color:#e58d2f ;
+        border: none;
+        color: black;
+        padding: 2px 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5%;
+}

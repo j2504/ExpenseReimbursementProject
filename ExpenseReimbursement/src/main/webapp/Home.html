@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Login.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="header">
+        <a href="Home.html" class="logo">Revature</a>
+        <div class="header-right">
+          <a href="Home.html" >Login</a>
+          <a href="Signup.html" >Sign Up</a>
+        </div>
+      </div>
+      
+
+      <h1 style="text-align:center;" class="welcome" >Welcome Back!</h1>
+      <div class="Login form">
+        <form action="LoginPage" method="post">
+            <div class="Login-c">
+            <fieldset style="width:300px;">
+                <div class="Login-H"><h2>Login</h2></div>
+                <label for="username" >Username :</label>
+                <input type="text" name="username" placeholder="Enter Username"  maxlength="10" required/>
+                <br/><br/>
+                <label for="password" >Password :</label>
+                <input type="password" name="password" placeholder="Enter Password" maxlength="15" required />
+                <br/><br/>
+                <div class="submit"><button type="submit">Login</button> <a href="Signup.html" class="button">SignUp</a> </div>
+                <br/><div class="forgot"><a href="ForgotPsw.html" target="_blank">Forgot Password?</a> </div>
+                </fieldset>
+            </div>
+        </form>
+      </div>
+
+</body>
+
+</html>
